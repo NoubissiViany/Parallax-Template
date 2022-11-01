@@ -10,7 +10,7 @@
   display: flex;
   gap: 20px;
   margin-left: -30px;
-  list-style: none;    
+  list-style: none;   
 }
 
 /* .nav-ul-search {
@@ -33,9 +33,14 @@ a {
   font-size: 1.2vw;
 }
 
-/* a:hover {
-    background-color: black;
-} */
+li {
+  padding: 8px;
+}
+
+li:hover {
+  color: #000;
+  background-color: #ccc;
+}
 
 .nav-h2 {
   text-align: center;
