@@ -50,7 +50,7 @@ li:hover {
 
 @media only screen and (max-width: 768px) {
   /* Navbar */
-  
+
   .nav-ul {
     display: flex;
     gap: 20px;
@@ -105,7 +105,7 @@ li:hover {
 
 /* About Me */
 
-.about-container {
+.about {
   color: #777;
   max-width: 950px;
   margin: auto;
@@ -127,7 +127,7 @@ li:hover {
   grid-gap: 50px;
 }
 
-.about-p2 p{
+.about-p2 p {
   text-align: center;
   padding-bottom: 25px;
 }
@@ -136,22 +136,18 @@ li:hover {
   text-align: center;
 }
 
-.about-progress-bar{
+.about-progress-bar {
   color: #000;
   background-color: #f1f1f1;
   margin: auto;
   max-width: 1050px;
 }
 
-.about-progress{
+.about-progress {
   color: #fff;
   background-color: #616161;
   padding: 8px;
   text-align: center;
-}
-
-.about-p4 {
-  letter-spacing: 10px;
 }
 
 .about-container3 {
@@ -167,21 +163,23 @@ li:hover {
 
 .about-p4 {
   font-size: 15px;
+  letter-spacing: 10px;
   margin-bottom: 15px;
 }
 
-.about-container3, .about-p5 {
+.about-container3
+.about-p5 {
   font-size: 15px;
   gap: 50px;
 }
 
-@media only screen and (max-width:428px) {
+@media only screen and (max-width: 428px) {
 
   .about-container2 {
     display: block;
   }
 
-  .about-container3{
+  .about-container3 {
     display: block;
     text-align: center;
     line-height: 40px;
@@ -192,5 +190,4 @@ li:hover {
     margin: auto;
     border-radius: 5px;
   }
-
 }
