@@ -226,11 +226,11 @@ li:hover {
   gap: 20px;
 }
 
-img {
+.portfolio-images {
   width: 200px;
 }
 
-img:hover {
+.portfolio-images:hover {
   opacity: 0.7;
 }
 
@@ -260,7 +260,7 @@ button:hover {
     margin: auto;
   }
 
-  img {
+  .portfolio-images {
     width: 170px;
   }
 }
@@ -275,7 +275,7 @@ button:hover {
     margin: auto;
   }
 
-  img {
+  .portfoli-images {
     width: 280px;
   }
 
