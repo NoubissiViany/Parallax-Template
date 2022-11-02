@@ -183,9 +183,104 @@ li:hover {
     line-height: 40px;
   }
 
-  img {
+  .about-img {
     max-width: 300px;
     margin: auto;
     border-radius: 5px;
   }
+}
+
+/* Portfolio */
+
+.portfolio {
+  background-image: url("../images/parallax2.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.portfolio p {
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  letter-spacing: 5px;
+  margin-top: 200px;
+}
+
+.portfolio-container1 {
+  color: #777;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.portfolio-p1 {
+  font-size: 25px;
+}
+
+.portfolio-container2 {
+  display: flex;
+  padding-top: 40px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: auto;
+  gap: 20px;
+}
+
+img {
+  width: 200px;
+}
+
+img:hover {
+  opacity: 0.7;
+}
+
+.portfolio-btn {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.portfolio-btn button {
+  font-size: 15px;
+  color: #000;
+  background-color: #f1f1f1;
+  border: none;
+  padding: 15px;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+@media only screen and (max-width: 768px) {
+  .portfolio-container2 {
+    display: flex;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  img {
+    width: 170px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .portfolio-container2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    border-radius: none;
+    max-width: 290px;
+    margin: auto;
+  }
+
+  img {
+    width: 280px;
+  }
+
+  .img1, .img2, .img3, .img4, .img5, .img6, .img7 {
+    margin-top: -20px;
+  }
+  
 }
