@@ -259,7 +259,7 @@ button:hover {
     max-width: 1000px;
     margin: auto;
   }
-  
+
   img {
     width: 170px;
   }
@@ -279,8 +279,7 @@ button:hover {
     width: 280px;
   }
 
-  .img1, .img2, .img3, .img4, .img5, .img6, .img7 {
+  .portfolio-img {
     margin-top: -20px;
   }
-  
 }
