@@ -167,14 +167,12 @@ li:hover {
   margin-bottom: 15px;
 }
 
-.about-container3
-.about-p5 {
+.about-container3 .about-p5 {
   font-size: 15px;
   gap: 50px;
 }
 
 @media only screen and (max-width: 428px) {
-
   .about-container2 {
     display: block;
   }
