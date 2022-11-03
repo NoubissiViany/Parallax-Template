@@ -394,7 +394,7 @@ button:hover {
     border-radius: 5px;
   }
 
-  .input-width, 
+  .input-width,
   .input-width2 {
     width: 98%;
   }
@@ -457,7 +457,8 @@ button:hover {
 }
 
 @media only screen and (max-width: 425px) {
-  .footer-span2 a, .footer-span2 {
+  .footer-span2 a,
+  .footer-span2 {
     font-size: 14px;
   }
 
@@ -471,10 +472,6 @@ button:hover {
 }
 
 @media only screen and (max-width: 320px) {
-  .footer-span2 a, .footer-span2 {
-    font-size: 14px;
-  }
-
   .footer-top {
     color: #777;
     margin-left: 2px;
@@ -488,7 +485,7 @@ button:hover {
   .footer-top {
     font-size: 10px;
   }
-  
+
   .footer-icons {
     font-size: 17px;
   }
