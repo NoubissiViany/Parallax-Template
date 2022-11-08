@@ -37,7 +37,7 @@ Knowledge about:
 
 ## Author
 
-👤 **kngcl**
+👤 **NoubissiViany**
 
 - GitHub: [NoubissiVinay](git@github.com:NoubissiViany/Parallax-Template.git)
 
