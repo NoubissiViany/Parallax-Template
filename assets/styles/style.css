@@ -2,6 +2,7 @@
   box-sizing: border-box;
   overflow-x: hidden;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
 }
 
 /* Navbar */
@@ -9,18 +10,29 @@
 .nav-ul {
   display: flex;
   gap: 20px;
-  margin-left: -30px;
   list-style: none;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  padding: 1rem;
+}
+
+.nav-ul-search {
+  position: absolute;
+  margin-left: 63%;
+}
+
+.nav-ul-search2 {
+  visibility: hidden;
 }
 
 .nav-image {
   background-image: url("../images/parallax1.jpg");
-  padding: 14%;
+  padding: 18%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  opacity: 0.75;
 }
 
 a {
@@ -38,14 +50,14 @@ li:hover {
   background-color: #ccc;
 }
 
-.nav-h2 {
+.nav-image h2 {
   text-align: center;
   color: #fff;
   background-color: #000;
   letter-spacing: 10px;
   padding: 15px;
   margin: auto;
-  width: 50%;
+  width: 60%;
 }
 
 /* About Me */
@@ -315,9 +327,12 @@ button:hover {
   .nav-ul {
     display: flex;
     gap: 20px;
-    margin-left: -30px;
     list-style: none;
     font-size: 2vw;
+  }
+
+  .nav-ul-search {
+    margin-left: 30%;
   }
 
   a {
@@ -326,15 +341,8 @@ button:hover {
     font-size: 2.2vw;
   }
 
-  .nav-h2 {
-    text-align: center;
-    font-size: 3vw;
-    color: #fff;
-    background-color: #000;
-    letter-spacing: 10px;
-    padding: 15px;
-    margin: auto;
-    width: 80%;
+  .nav-image h2 {
+    width: 85%;
   }
 
   .portfolio-container2 {
@@ -355,6 +363,15 @@ button:hover {
     color: #000;
     text-decoration: none;
     font-size: 2.2vw;
+  }
+
+  .nav-icon,
+  .nav-ul-search {
+    visibility: hidden;
+  }
+
+  .nav-ul-search2 {
+    visibility: visible;
   }
 
   .footer-span2 a,

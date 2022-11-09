@@ -41,6 +41,12 @@ Knowledge about:
 
 - GitHub: [NoubissiVinay](git@github.com:NoubissiViany/Parallax-Template.git)
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](github.com/NoubissiViany/Parallax-Template/issues).
+
 ## 📝 License
 
 This project is [w3school](./LICENSE) licensed.
