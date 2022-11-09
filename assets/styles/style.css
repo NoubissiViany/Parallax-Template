@@ -27,7 +27,7 @@
 }
 
 .nav-image {
-  background-image: linear-gradient(#d8d2d27a, #dfd7d777),url("../images/parallax1.jpg");
+  background-image: linear-gradient(#d8d2d27a, #dfd7d777), url("../images/parallax1.jpg");
   padding: 18%;
   background-position: center;
   background-repeat: no-repeat;
