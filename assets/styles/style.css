@@ -27,7 +27,7 @@
 }
 
 .nav-image {
-  background-image: url("../images/parallax1.jpg");
+  background-image: linear-gradient(#d8d2d27a, #dfd7d777),url("../images/parallax1.jpg");
   padding: 18%;
   background-position: center;
   background-repeat: no-repeat;
@@ -120,6 +120,8 @@ li:hover {
   flex-wrap: wrap;
   margin-top: 60px;
   padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 35px;
   color: #fff;
   background-color: #616161;
   text-align: center;
